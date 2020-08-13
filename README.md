@@ -3,6 +3,17 @@
 This project was built with Ruby on Rails.
 For this project, I followed [jumpstartlab](http://tutorials.jumpstartlab.com/projects/blogger.html) tutorial for learning porpuse .
 
+# Models
+
+Article:
+  -Title:string
+  -Body:text
+
+User:
+  -Name:string
+  -Email:string
+  -Password:string
+
 ## Getting started
 
 To get a local copy of the repository please run the following commands on your terminal:
