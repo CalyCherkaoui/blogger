@@ -1,5 +1,20 @@
 # Building a Blog with Rails
 
+This project was built with Ruby on Rails.
+For this project, I followed [jumpstartlab](http://tutorials.jumpstartlab.com/projects/blogger.html) tutorial for learning porpuse .
+
+## Getting started
+
+To get a local copy of the repository please run the following commands on your terminal:
+
+```
+$ git clone git@github.com:CalyCherkaoui/blogger.git
+$ cd re-former
+$ git checkout development
+$ bundle install
+$ yarn install --check-files
+```
+
 ## Author
 
 👤 **Houda Cherkaoui**
@@ -21,8 +36,7 @@ Give a ⭐️ if you like this project!
 
 - Hat tip to anyone whose code was used
 - Inspiration
-- Microverse
-- https://www.techmaker.tv
+- [jumpstartlab](http://tutorials.jumpstartlab.com/projects/blogger.html) 
 
 ## 📝 License
 
