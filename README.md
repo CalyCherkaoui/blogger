@@ -1,18 +1,32 @@
 # Building a Blog with Rails
 
 This project was built with Ruby on Rails.
-For this project, I followed [jumpstartlab](http://tutorials.jumpstartlab.com/projects/blogger.html) tutorial for learning porpuse .
+For this project, I followed [jumpstartlab](http://tutorials.jumpstartlab.com/projects/blogger.html) tutorial for learning porpuse.
+
+## Built with:
+
+Framework/API : ``Ruby on Rails``
+Langage: ``Ruby``
+Styling: ``Bootstrap 4``
+Text-editor: Visual Studio Code
 
 # Models
 
+The models created and their relationships:
+```
 Article:
   -Title:string
   -Body:text
+  -Belong to a user
+```
 
+```
 User:
   -Name:string
   -Email:string
   -Password:string
+  -Has many articles
+```
 
 ## Getting started
 
