@@ -2,8 +2,13 @@
 
 <ul>
   <% @articles.each do |art| %>
-    <li><%= link_to art.title, article_path(art) %></li>
+    <li><%= link_to art.title, article_path(art) %> <%= link_to "Delete this article", article_path(art), method: :delete, data: { confirm: "Are you sure you want to delete this article?" } %> </li>
   <% end %>
 </ul>
 
-<%= link_to "Create a new article", new_article_path%>
+<%= link_to "Create a new article", new_article_path %>
+
+<br><br><br>
+<% if flash[:warning] %>
+  <p><%= warning %></p>
+<% end %>

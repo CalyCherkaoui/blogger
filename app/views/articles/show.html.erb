@@ -2,5 +2,14 @@
 
 <h2><%= @article.title %></h2>
 <p><%= @article.body %></p>
+<br><br>
+<%= link_to "Edit this article", edit_article_path(@article)%>
+<br><br>
+<%= link_to "Delete this article", article_path(@article), method: :delete, data: { confirm: "Are you sure you wan to delete this article?" } %>
 <br><br><br>
 <%= link_to "<< Back to the list of articles", articles_path%>
+
+<br><br><br>
+<% if flash[:warning] %>
+  <p><%= warning %></p>
+<% end %>
