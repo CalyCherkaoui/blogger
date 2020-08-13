@@ -9,11 +9,14 @@ To get a local copy of the repository please run the following commands on your 
 
 ```
 $ git clone git@github.com:CalyCherkaoui/blogger.git
-$ cd re-former
+$ cd blogger
 $ git checkout development
 $ bundle install
 $ yarn install --check-files
+$ rails db:migrate
+$ rails server
 ```
+In your browser's adress field, type : http://localhost:3000
 
 ## Author
 
