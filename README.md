@@ -5,10 +5,10 @@ For this project, I followed [jumpstartlab](http://tutorials.jumpstartlab.com/pr
 
 ## Built with:
 
-Framework/API : ``Ruby on Rails``
-Langage: ``Ruby``
-Styling: ``Bootstrap 4``
-Text-editor: Visual Studio Code
+- Framework/API : ``Ruby on Rails``
+- Langage: ``Ruby``
+- Styling: ``Bootstrap 4``
+- Text-editor: Visual Studio Code
 
 # Models
 
