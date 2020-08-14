@@ -1,7 +1,7 @@
 # Building a Blog with Rails
 
 This project was built with Ruby on Rails.
-For this project, I followed [jumpstartlab](http://tutorials.jumpstartlab.com/projects/blogger.html) tutorial for learning porpuse.
+For this project, I followed [jumpstartlab](http://tutorials.jumpstartlab.com/projects/blogger.html) tutorial for learning purposes.
 
 ## Built with:
 

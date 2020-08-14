@@ -16,5 +16,8 @@
   <%= f.label :body, 'Content:'%><br>
   <%= f.text_area :body, placeholder: "Type here the content of the article!"%>
   <br><br>
+  <%= f.label :tag_list %><br>
+  <%= f.text_field :tag_list %>
+  <br><br>
   <%= f.submit 'Save changes article' %>
 <% end %>
