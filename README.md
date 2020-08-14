@@ -10,7 +10,7 @@ For this project, I followed [jumpstartlab](http://tutorials.jumpstartlab.com/pr
 - Styling: ``Bootstrap 4``
 - Text-editor: Visual Studio Code
 
-# Models
+## Models
 
 The models created and their relationships:
 ```
