@@ -10,6 +10,9 @@ For this project, I followed [jumpstartlab](http://tutorials.jumpstartlab.com/pr
 - Styling: ``Bootstrap 4``
 - Text-editor: Visual Studio Code
 
+![HTML5](https://img.shields.io/badge/-HTML5-%23E44D27?style=flat-square&logo=html5&logoColor=ffffff)
+
+
 ## Models
 
 The models created and their relationships:
