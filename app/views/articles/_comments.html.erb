@@ -1,4 +1,9 @@
-<div>
-  <h3>Comment by: <%= comment.author_name %></h3>
-  <p><%= comment.body %></p>
-</div>
+<% @comments.each do |com| %>
+
+  <div>
+    <h3>Comment by: <%= com.author_name %></h3>
+    <small>Posted <%= distance_of_time_in_words(com.article.created_at, com.created_at)%></small>
+    <p><%= com.body %></p>
+  </div>
+
+<% end %>
