@@ -5,12 +5,14 @@ For this project, I followed [jumpstartlab](http://tutorials.jumpstartlab.com/pr
 
 ## Built with:
 
-- Framework/API : ``Ruby on Rails``
-- Langage: ``Ruby``
-- Styling: ``Bootstrap 4``
-- Text-editor: Visual Studio Code
+<code><a href="#" target="_blank"><img height="30" src="https://www.vectorlogo.zone/logos/ruby-lang/ruby-lang-horizontal.svg"></a></code>
+<code><a href="#" target="_blank"><img height="30" src="https://www.vectorlogo.zone/logos/git-scm/git-scm-ar21.svg"></a></code>
+<code><a href="#" target="_blank"><img height="30" src="https://www.vectorlogo.zone/logos/getbootstrap/getbootstrap-icon.svg"></a></code>
+<code><a href="#" target="_blank"><img height="30" src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-ar21.svg"></a></code>
 
-![HTML5](https://img.shields.io/badge/-HTML5-%23E44D27?style=flat-square&logo=html5&logoColor=ffffff)
+- Framework/API : ``Ruby on Rails``, ``Bootstrap 4``
+- Langage: ``Ruby``
+- Text-editor: ``Visual Studio Code``
 
 
 ## Models
