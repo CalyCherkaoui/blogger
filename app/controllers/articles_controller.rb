@@ -39,6 +39,12 @@ class ArticlesController < ApplicationController
 
   def destroy
     @article = Article.find(params[:id])
+    @article.comments.each do |com|
+      com.destroy
+    end
+    @article.taggings.each do |t|
+      t.destroy
+    end
     @article.destroy
     redirect_to articles_path, warning: 'Article successfuly deleted'
   end

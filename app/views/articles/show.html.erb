@@ -20,7 +20,7 @@
   <p><%= warning %></p>
 <% end %>
 
-<h2><%= pluralize(@article.comments.size, 'Comment')%></h2>
+<h2><%= pluralize(@article.comments.count, 'Comment')%></h2>
 <%= render partial: 'articles/comments'%>
 <%= render partial: 'comments/form' %>
 
