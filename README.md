@@ -23,15 +23,30 @@ The models created and their relationships:
 Article:
   -Title:string
   -Body:text
-  -Belong to a user
+  HAS_MANY: Taggings, Comments
+  HAS_MANY: Tags THROUGH: Taggings
 ```
 
 ```
-User:
-  -Name:string
+Comment:
+  -Author_name:string
   -Email:string
   -Password:string
-  -Has many articles
+  -BELONG_TO Article
+```
+
+```
+Tag:
+  -name:string
+  HAS_MANY: Taggings
+  HAS_MANY: Tags THROUGH: Taggings
+```
+
+```
+Tagging:
+  -Reference Tag
+  -Reference Article
+  -BELONG_TO Article, Tag
 ```
 
 ## Getting started
