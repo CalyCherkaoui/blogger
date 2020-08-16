@@ -1,0 +1,8 @@
+<h1>Tag show</h1>
+
+<ul>
+  <% @tag.articles.each do |art| %>
+    <li><%= link_to art.title, article_path(art) %></li>
+  <% end %>
+<ul>
+<%= link_to '<< See all tags here!', tags_path %>
