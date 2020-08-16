@@ -32,7 +32,7 @@ Comment:
   -Author_name:string
   -Email:string
   -Password:string
-  -BELONG_TO Article
+  BELONG_TO Article
 ```
 
 ```
@@ -44,9 +44,7 @@ Tag:
 
 ```
 Tagging:
-  -Reference Tag
-  -Reference Article
-  -BELONG_TO Article, Tag
+  BELONG_TO Article, Tag
 ```
 
 ## Getting started
